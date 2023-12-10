@@ -1,4 +1,4 @@
-# :fork_and_knife: Imprimir un menú con JS
+# :fork_and_knife: Kamakura Food
 
 ## Instrucciones
 
@@ -12,9 +12,9 @@ Queremos imprimir de manera dinámica un menú en nuestra web de comida japonesa
 
 4. Has de crear una función que al hacer click en el botón "Añadir" de cada plato, aparezca en el carrito dicho plato (tienes una ejemplo impreso estáticamente del plato en el carrito, para que sepas como tiene que quedar). No puedes añadir dos veces el mismo plato. Al hacer click en el botón "x" se debe eliminar el plato del carrito de compras.
 
-5. BONUS: El plato del carrito de compras lleva un input numérico, puedes hacer una función que recoja la cantidad escogida del input y haga el cálculo para obtener el subtotal por cada plato y luego que imprima el total de todos los platos en pantalla, dentro del texto que dice "Total: €".
+5. ⭐ BONUS: El plato del carrito de compras lleva un input numérico, puedes hacer una función que recoja la cantidad escogida del input y haga el cálculo para obtener el subtotal por cada plato y luego que imprima el total de todos los platos en pantalla, dentro del texto que dice "Total: €".
 
-6. BONUS: Al dar click en el botón "Proceder al pago" se mostrará el recibo de tu compra, que contiene los platos a comprar, con su precio y su cantidad. No debes preocuparte por los estilos porque ya existen en el archivo cart.css 
+6. ⭐ BONUS: Al dar click en el botón "Proceder al pago" se mostrará el recibo de tu compra, que contiene los platos a comprar, con su precio y su cantidad. No debes preocuparte por los estilos porque ya existen en el archivo cart.css 
 
 ### Importante
 
@@ -28,7 +28,6 @@ Queremos imprimir de manera dinámica un menú en nuestra web de comida japonesa
 
 1. El proyecto está preparado para usar vitest y jsdom, solo debes hacer npm install y tienes un test sencillo de prueba que testea que el link de inicio esté en el DOM, puedes comprobar que pasa el test con npm test.
 2. Realiza test unitarios de tus funciones.
-3. 
 
 ## Instalación
 
