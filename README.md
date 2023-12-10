@@ -28,6 +28,13 @@ Queremos imprimir de manera dinámica un menú en nuestra web de comida japonesa
 
 1. El proyecto está preparado para usar vitest y jsdom, solo debes hacer npm install y tienes un test sencillo de prueba que testea que el link de inicio esté en el DOM, puedes comprobar que pasa el test con npm test.
 2. Realiza test unitarios de tus funciones.
+3. 
+
+## Instalación
+
+- Node v18.15.0
+- Vitest v0.34.6
+- Jsdom v22.1.0
 
 ## ¿Qué aprenderemos?
 
@@ -35,3 +42,11 @@ Queremos imprimir de manera dinámica un menú en nuestra web de comida japonesa
 - Condicionales
 - Uso de bucles
 - Tests del DOM
+
+## Resultado esperado
+
+Dejo un video del resultado esperado
+
+https://github.com/FemCoders/js-print-menu/assets/73828751/c15ddf54-b93f-49fe-b2fd-12cfd1a765bd
+
+
