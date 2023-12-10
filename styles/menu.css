@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+@import './cart.css';
 :root {
     --font-main: 'PT Sans', sans-serif;
     --color-main: #fc3232;
+    --color-light: #ffecdb;
 }
 
 * {
@@ -10,6 +12,16 @@
 
 p {
     margin: 0px;
+}
+
+input {
+    width: 50px;
+}
+
+h5,
+h3,
+input {
+    margin: 0;
 }
 
 .container {
@@ -26,12 +38,19 @@ p {
     align-items: center;
     width: 100%;
     box-sizing: border-box;
-    padding: 2%;
+    padding: 0.5% 2%;
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
 }
 
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 260px;
+}
+
 .image-logo {
-    width: 100px;
+    width: 65px;
     height: auto;
 }
 
@@ -56,7 +75,8 @@ p {
     margin: 15px;
 }
 
-.filter {
+.filter,
+.add-button {
     border: 1px solid var(--color-main);
     border-radius: 20px;
     padding: 5px 10px;
@@ -66,17 +86,22 @@ p {
     font-size: 1rem;
 }
 
-.filter:hover {
+.filter:hover,
+.add-button:hover {
     background-color: var(--color-main);
     color: white;
 }
 
 .main-container {
     display: flex;
+}
+
+.menu-container {
+    display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    width: 85%;
+    width: 75vw;
     margin-top: 2%;
 }
 
@@ -85,13 +110,13 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 90%;
 }
 
 .product-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 200px;
     height: 200px;
@@ -99,4 +124,21 @@ p {
     margin: 1%;
     padding: 1%;
     text-align: center;
+    position: relative;
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+    .main-container {
+        flex-direction: column-reverse;
+    }
+    .menu-container {
+        width: 100vw;
+    }
 }
