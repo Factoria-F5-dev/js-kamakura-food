@@ -12,7 +12,7 @@ const products = [
         id: 1,
         name: 'Mochi',
         description: 'Dos piezas de pastel japonés hecho de mochigome, un pequeño grano de arroz glutinoso, de chocolate, matcha, mango o limón.',
-        price: 4.50,
+        price: 2.50,
         category: "postres"
     },
     {

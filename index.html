@@ -21,11 +21,9 @@
     <div class="main-container">
         <main class="menu-container">
             <section class="filters-container" id="filters">
-                <!-- Botón de filtro de muestra -->
                 <button class="filter">filter</button>
             </section>
             <div class="products-container" id="products">
-                <!-- Producto del menú de muestra -->
                 <div class="product-container">
                     <h3>Título</h3>
                     <p>Descripción</p>
@@ -33,6 +31,7 @@
                         <h5>Precio €</h5>
                         <button class="add-button">Añadir</button>
                     </div>
+
                 </div>
             </div>
         </main>
@@ -40,39 +39,41 @@
             <div id="products-container">
                 <h2>Carrito</h2>
                 <div id="cart-products">
-                    <!-- Producto en el carrito de muestra -->
+                    <!-- Producto en el carrito de muestra (así se debería ver) -->
                     <div class="cart-container">
                         <button class="close-button"><img src="./assets/img/close.svg" alt="close"></button>
-                        <h3>Añade un plato</h3>
-                        <h5>Precio €</h5>
-                        <input class="quantity" value="1" type="number" />
+                        <div class="text-container">
+                            <h3>Añade un plato</h3>
+                            <h5>Precio €</h5>
+                        </div>
+                        <div class="quantity-container" id="quantity">
+                            <button>+</button>
+                            <p class="quantity">1</p>
+                            <button>-</button>
+                        </div>
                     </div>
+                    <h3>Añade un plato a tu menú</h3>
                 </div>
-                <h2>Total: €</h2>
+                <h2 id="cart-total">Total: €</h2>
                 <button class="proceedPay-button" id="proceedPay-button">Proceder al pago</button>
             </div>
+            <!-- Recibo (así se debería ver) -->
             <div id="receipt-container">
                 <button class="close-button" id="close-receipt"><img src="./assets/img/close.svg" alt="close"></button>
                 <h2 class="receipt-title">Recibo</h2>
-                <div class="receipt-product">
+                <div class="receipt-product" id="receipt-product">
                     <h3>Título</h3>
                     <div class="receipt-price">
                         <p>Cantidad: 1</p>
                         <h5>Subtotal €</h5>
                     </div>
                 </div>
-                <div class="receipt-product">
-                    <h3>Título</h3>
-                    <div class="receipt-price">
-                        <p>Cantidad: 1</p>
-                        <h5>Subtotal €</h5>
-                    </div>
-                </div>
-                <h3>Total: €</h3>
-                <button class="pay-button">Pagar</button>
+                <h3 id="receipt-total">Total: €</h3>
+                <button class="pay-button" id="pay-button">Pagar</button>
             </div>
         </aside>
     </div>
+
 </body>
 
 </html>
