@@ -47,6 +47,8 @@ Queremos imprimir de manera dinámica un menú en nuestra web de comida japonesa
 
 Dejo un video del resultado esperado
 
-https://github.com/FemCoders/js-print-menu/assets/73828751/c15ddf54-b93f-49fe-b2fd-12cfd1a765bd
+https://github.com/FemCoders/js-kamakura-food/assets/73828751/4989b05f-a06c-49d6-a5fe-fd7a9537b188
+
+
 
 
