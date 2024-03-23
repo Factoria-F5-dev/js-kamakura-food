@@ -1,5 +1,5 @@
 {
-    "name": "js-print-menu",
+    "name": "js-kamakura-food",
     "version": "1.0.0",
     "description": "Kamakura Food",
     "main": "./src/menu.js",
